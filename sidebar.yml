@@ -1,7 +1,7 @@
 sidebar:
     - title: 博客
       url: blog/index.html
-    - title: Usage
+    - title: 用法
       subsection:
         - title: 入门
           url: docs/usage/getting-started.html
