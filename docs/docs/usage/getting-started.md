@@ -1,13 +1,13 @@
 ---
 layout: doc-page
-title: Getting Started: Users
+title: 入门：用户
 ---
 
 
 
-## Trying out Dotty
+## 尝试使用 Dotty
 
-### In your web browser
+### 在你的浏览器中
 [Scastie](https://scastie.scala-lang.org/?target=dotty), the online Scala playground, supports Dotty.
 This is an easy way to try Dotty without installing anything, directly in your browser.
 
@@ -33,11 +33,11 @@ scala>
 
 For more information, see the [Dotty Example Project](https://github.com/lampepfl/dotty-example-project)
 
-### IDE support
+### IDE 支持
 Start using the Dotty IDE in any Dotty project by following the
 [IDE guide](http://dotty.epfl.ch/docs/usage/ide-support.html).
 
-### Standalone installation
+### 独立安装
 Releases are available for download on the [Releases Section](https://github.com/lampepfl/dotty/releases)
 of the Dotty repository. Releases include three executables: `dotc` the Dotty compiler,
 `dotd` the [Dotty Documentation tool](http://dotty.epfl.ch/docs/usage/dottydoc.html) and `dotr` the Dotty REPL.
