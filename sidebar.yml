@@ -1,145 +1,145 @@
 sidebar:
-    - title: Blog
+    - title: 博客
       url: blog/index.html
     - title: Usage
       subsection:
-        - title: Getting Started
+        - title: 入门
           url: docs/usage/getting-started.html
-        - title: sbt-projects
+        - title: SBT 项目
           url: docs/usage/sbt-projects.html
-        - title: IDE support for Dotty
+        - title: IDE 支持
           url: docs/usage/ide-support.html
-        - title: cbt-projects
+        - title: CBT 项目
           url: docs/usage/cbt-projects.html
         - title: Dottydoc
           url: docs/usage/dottydoc.html
-    - title: Reference
+    - title: 参考
       subsection:
-        - title: Overview
+        - title: 概观
           url: docs/reference/overview.html
-        - title: New Types
+        - title: 新类型
           subsection:
-            - title: Intersection types
+            - title: 交集类型
               url: docs/reference/intersection-types.html
-            - title: Union types
+            - title: 并集类型
               url: docs/reference/union-types.html
-            - title: Type lambdas
+            - title: 类型 lambda
               url: docs/reference/type-lambdas.html
-            - title: Implicit Function Types
+            - title: 隐式函数类型
               url: docs/reference/implicit-function-types.html
-            - title: Dependent Function Types
+            - title: 依赖函数类型
               url: docs/reference/dependent-function-types.html
-        - title: Enums
+        - title: 枚举
           subsection:
-            - title: Enumerations
+            - title: 枚举
               url: docs/reference/enums/enums.html
-            - title: Algebraic Data Types
+            - title: 代数数据类型
               url: docs/reference/enums/adts.html
-            - title: Translation
+            - title: 翻译
               url: docs/reference/enums/desugarEnums.html
-        - title: Other New Features
+        - title: 其他新特性
           subsection:
-            - title: Multiversal Equality
+            - title: 多元相等
               url: docs/reference/multiversal-equality.html
-            - title: Trait Parameters
+            - title: 特质参数
               url: docs/reference/trait-parameters.html
-            - title: Inline
+            - title: 内联
               url: docs/reference/inline.html
-            - title: Meta Programming
+            - title: 元编程
               url: docs/reference/principled-meta-programming.html
-            - title: By-Name Implicits
+            - title: 隐式传名参数
               url: docs/reference/implicit-by-name-parameters.html
-            - title: Auto Parameter Tupling
+            - title: 参数自动元组化
               url: docs/reference/auto-parameter-tupling.html
-            - title: Named Type Arguments
+            - title: 具名类型参数
               url: docs/reference/named-typeargs.html
-            - title: Erased Terms
+            - title: 被擦除项
               url: docs/reference/erased-terms.html
-            - title: Kind Polymorphism
+            - title: 类别多态
               url: docs/reference/kind-polymorphism.html
-            - title: Local Optimisations
+            - title: 局部优化
               url: docs/reference/optimisations.html
-        - title: Changed Features
+        - title: 更改的特性
           subsection:
-            - title: Volatile Lazy Vals
+            - title: 易变惰性值
               url: docs/reference/changed/lazy-vals.html
-            - title: Structural Types
+            - title: 结构类型
               url: docs/reference/changed/structural-types.html
-            - title: Type Checking
+            - title: 类型检查
               url: docs/reference/changed/type-checking.html
-            - title: Type Inference
+            - title: 类型推断
               url: docs/reference/changed/type-inference.html
-            - title: Implicit Resolution
+            - title: 隐式解析
               url: docs/reference/changed/implicit-resolution.html
-            - title: Implicit Conversions
+            - title: 隐式转换
               url: docs/reference/changed/implicit-conversions.html
-            - title: Vararg Patterns
+            - title: 可变参数模式
               url: docs/reference/changed/vararg-patterns.html
-            - title: Pattern matching
+            - title: 模式匹配
               url: docs/reference/changed/pattern-matching.html
-            - title: Eta Expansion
+            - title: Eta 扩展
               url: docs/reference/changed/eta-expansion.html
-        - title: Dropped Features
+        - title: 弃用的特性
           subsection:
-            - title: DelayedInit
+            - title: 延迟初始化
               url: docs/reference/dropped/delayed-init.html
             - title: Macros
               url: docs/reference/dropped/macros.html
-            - title: Existential Types
+            - title: 存在类型
               url: docs/reference/dropped/existential-types.html
-            - title: Type Projection
+            - title: 类型投影
               url: docs/reference/dropped/type-projection.html
-            - title: Procedure Syntax
+            - title: 过程语法
               url: docs/reference/dropped/procedure-syntax.html
-            - title: Early Initializers
+            - title: 早期初始化器
               url: docs/reference/dropped/early-initializers.html
-            - title: Class Shadowing
+            - title: 类遮蔽
               url: docs/reference/dropped/class-shadowing.html
-            - title: Limit 22
+            - title: 22 限制
               url: docs/reference/dropped/limit22.html
-            - title: XML literals
+            - title: XML 字面量
               url: docs/reference/dropped/xml.html
-            - title: Auto-Application
+            - title: 自动应用
               url: docs/reference/dropped/auto-apply.html
-            - title: Weak Conformance
+            - title: 弱一致
               url: docs/reference/dropped/weak-conformance.html
-    - title: Contributing
+    - title: 贡献
       subsection:
-        - title: Getting Started
+        - title: 入门
           url: docs/contributing/getting-started.html
-        - title: Workflow
+        - title: 工作流程
           url: docs/contributing/workflow.html
         - title: Eclipse
           url: docs/contributing/eclipse.html
         - title: IntelliJ IDEA
           url: docs/contributing/intellij-idea.html
-        - title: Testing
+        - title: 测试
           url: docs/contributing/testing.html
-        - title: Working with the Backend
+        - title: 使用后端
           url: docs/contributing/backend.html
-    - title: Internals
+    - title: 内幕
       subsection:
-        - title: Backend
+        - title: 后端
           url: docs/internals/backend.html
-        - title: Classpaths
+        - title: 类路径
           url: docs/internals/classpaths.html
-        - title: Core Data Structrues
+        - title: 核心数据结构
           url: docs/internals/core-data-structures.html
-        - title: Contexts
+        - title: 上下文环境
           url: docs/internals/contexts.html
         - title: Dotc vs Scalac
           url: docs/internals/dotc-scalac.html
-        - title: Higher-Kinded Types
+        - title: 高阶类型
           url: docs/internals/higher-kinded-v2.html
-        - title: Overall Structure
+        - title: 整体结构
           url: docs/internals/overall-structure.html
-        - title: Periods
+        - title: 时间概念
           url: docs/internals/periods.html
-        - title: Syntax
+        - title: 语法
           url: docs/internals/syntax.html
-        - title: Type System
+        - title: 类型系统
           url: docs/internals/type-system.html
-    - title: Resources
+    - title: 资源
       subsection:
-        - title: Talks
+        - title: 会谈
           url: docs/resources/talks.html
