@@ -1,0 +1,25 @@
+---
+layout: main
+extraCSS:
+    - css/sidebar.css
+    - css/toolbar.css
+    - css/api-page.css
+---
+
+{% include "toolbar" %}
+
+<div id="content-wrapper">
+    {% assign sidebarTop = "75px" %}
+    {% include "sidebar" %}
+
+    <div id="content-body" class="doc-page-body">
+        <h1 id="doc-page-title">{{ page.title }}</h1>
+        <a id="edit-on-github" href="https://github.com/Dotty-China/chinese-docs/edit/master/{{ site.root }}/{{ page.url }}">
+            在 GitHub 上修改此页面
+        </a>
+        <hr/>
+        <div id="doc-page-container">
+            {{ content }}
+        </div>
+    </div><!-- end content-body -->
+</div><!-- end content-wrapper -->
