@@ -23,6 +23,8 @@ sidebar:
               url: docs/reference/intersection-types.html
             - title: 并集类型
               url: docs/reference/union-types.html
+            - title: 单例字面量类型
+              url: docs/reference/singleton-types.html
             - title: 类型 lambda
               url: docs/reference/type-lambdas.html
             - title: 隐式函数类型
